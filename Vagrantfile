@@ -5,8 +5,8 @@ Vagrant.configure("2") do |config|
 	  puppetserver.vm.hostname = "puppet.example.com"
 	  puppetserver.vm.provider :hyperv do |hyperv|
                 hyperv.maxmemory = 4096
-        	    hyperv.memory = 4096 
-	          hyperv.cpus = 2
+                hyperv.memory = 4096 
+	        hyperv.cpus = 2
  	  end
   end
 
@@ -20,3 +20,8 @@ Vagrant.configure("2") do |config|
         end
   end
 end
+
+#if you use any other virtualization program like Virtualbox replace hyperv with virtualbox, the work in between the pipes is the variable so you can type in
+#   puppetagent.vm.provider :virtualbox do |vb|
+#if you do this remember to replace the fields under with the variable first
+#  (yourvar).maxmemory = 2048 
