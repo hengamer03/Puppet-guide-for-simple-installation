@@ -2,6 +2,7 @@
 
 ### Welcome to my simple guide on how to set up a very easy puppet enviorment using vagrant
 ### Provided files here are used to set up your Vagrant enviorment using HyperV and the files you will need to create a simple Module in the production evironment.
+### to find the official puppet documentation go to https://puppet.com/docs/puppet/7/puppet_index.html
 
 
 # Guide
