@@ -54,3 +54,4 @@
 
 
 ### congrats on making it, this is a very simple introdution to puppet. puppet is very powerful and can be used in many usecases. 
+## If you want to take your next step in puppet go and read through my guide to editing files wil puppet found on the link: https://github.com/hengamer03/Puppet-add-line-configure-files
